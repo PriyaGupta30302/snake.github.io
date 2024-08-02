@@ -88,3 +88,51 @@ body {
     position: absolute;
     margin-bottom: 30px;
   }
+
+
+ @media screen and (max-width:830px) {
+    body {
+    height: auto;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+  }
+
+  /* #game-board {
+    grid-template-columns: repeat(10, 10px);
+    grid-template-rows: repeat(10, 10px);
+  } */
+
+  .game-border-1, .game-border-2, .game-border-3 {
+    border-width: 10px;
+    box-shadow: none;
+  }
+
+  #instruction-text {
+    top: 65%;
+    bottom: 20%;
+    width: 85%;
+    padding: 10px;
+    font-size: 25px;
+    color: #282927;
+  }
+
+  /* .scores {
+    flex-direction: column;
+    align-items: center;
+  } */
+
+  /* #score, #highScore {
+    font-size: 20px;
+  } */
+
+  #score {
+    color: #abb78a;
+    font-size: 40px;
+  }
+
+  .scores {
+    justify-content: center;
+  }
+
+  }
